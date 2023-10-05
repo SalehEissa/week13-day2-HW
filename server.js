@@ -35,4 +35,3 @@ app.use('/', logsRouter)
 app.listen(PORT, () => {
     console.log(`We live: ${PORT}`);
 });
-s
