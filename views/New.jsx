@@ -5,11 +5,11 @@ class New extends React.Component {
         return (
             <form action="/logs" method="POST">
                 Title: <input type="text" name="title" /> <br />
-                Entry: <textarea name="entry"></textarea> <br /> {/* Use textarea here */}
+                Entry: <input type="textarea" name="entry" /> <br />
                 Is ship broken? <input type="checkbox" name="shipIsBroken" /> <br />
                 <input type="submit" value="Submit form" /> <br />
             </form>
-        );
+        )
     }
 }
 
